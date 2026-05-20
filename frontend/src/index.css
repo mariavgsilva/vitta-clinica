@@ -3,16 +3,16 @@
 }
 
 :root {
-  --clinic-primary: #2b8cbe;
-  --clinic-primary-dark: #1f6f9a;
+  --clinic-primary: #4c9f8f;
+  --clinic-primary-dark: #5abba8;
   --clinic-primary-soft: #e8f4fa;
   --clinic-accent: #3aaf9a;
   --clinic-surface: #ffffff;
-  --clinic-bg: #f4f8fb;
+  --clinic-bg: #b6b6b6;
   --clinic-border: #dce8ef;
-  --clinic-text: #1a2b3c;
+  --clinic-text: #488f9c;
   --clinic-muted: #5c6f82;
-  --clinic-danger: #d9534f;
+  --clinic-danger: #ffae00;
   --clinic-shadow: 0 8px 28px rgba(27, 79, 114, 0.08);
   --transition-fast: 0.2s ease;
 }
@@ -79,16 +79,16 @@ a {
 
 .nav-link {
   text-decoration: none;
-  padding: 8px 12px;
+  padding: 11px 12px;
   border-radius: 8px;
-  background: #eef4ff;
-  color: #2f80ed;
+  background: #5abba8;
+  color: #ffffff;
   font-size: 0.9rem;
 }
 
 .nav-link-admin {
-  background: #fff3e6;
-  color: #c56a00;
+  background: #5abba8;
+  color: #ffffff;
 }
 
 .section-block {
@@ -176,12 +176,12 @@ a {
 
 .status-scheduled {
   background: #e8f4ff;
-  color: #2f80ed;
+  color: #3b92cc;
 }
 
 .status-cancelled {
-  background: #fdecea;
-  color: #c0392b;
+  background: #000000;
+  color: #ffffff;
 }
 
 .status-completed {
@@ -593,7 +593,7 @@ h1 {
 .form-field input:focus,
 .form-field select:focus,
 .form-field textarea:focus {
-  outline: 2px solid #2f80ed;
+  outline: 2px solid #3b5dcc;
   outline-offset: 1px;
 }
 
@@ -640,15 +640,15 @@ h1 {
 }
 
 .btn-secondary {
-  background: #e0e0e0;
-  color: #333;
+  background: linear-gradient(135deg, var(--clinic-primary) 0%, var(--clinic-primary-dark) 100%);
+  color: #ffffff;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
 }
 
 .btn-danger {
-  background: #eb5757;
-  color: #fff;
+  background: #5abba8;
+  color: #ffffff;
 }
-
 .btn-link {
   display: inline-block;
 }
