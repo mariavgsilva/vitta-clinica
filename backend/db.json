@@ -80,6 +80,15 @@
       "age": null,
       "role": "user",
       "createdAt": "2026-05-16T12:50:40.355Z"
+    },
+    {
+      "id": "fef151fb-7490-4d14-8e39-99753b82c09b",
+      "name": "teste",
+      "email": "teste@gmail.com",
+      "password": "$2b$10$lpu662otqUNAUcSZRFdL7e/td8fEzADxEQC5tqmcMDmUzLAKaoXIi",
+      "age": null,
+      "role": "user",
+      "createdAt": "2026-05-20T19:34:22.627Z"
     }
   ],
   "appointments": [
@@ -160,6 +169,19 @@
       "status": "scheduled",
       "createdAt": "2026-05-16T12:55:55.872Z",
       "updatedAt": "2026-05-16T12:57:34.092Z"
+    },
+    {
+      "id": "e315f3f3-9fab-4a5b-9e0f-da2d8cbb840e",
+      "userId": "fef151fb-7490-4d14-8e39-99753b82c09b",
+      "patientName": "teste",
+      "appointmentType": "Cardiologista",
+      "date": "2026-05-21",
+      "time": "08:00",
+      "doctor": null,
+      "notes": null,
+      "status": "scheduled",
+      "createdAt": "2026-05-20T19:42:47.986Z",
+      "updatedAt": "2026-05-20T21:17:15.711Z"
     }
   ]
 }
