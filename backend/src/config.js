@@ -12,8 +12,6 @@ function requireJwtSecret() {
 }
 
 module.exports = {
-  port: Number(process.env.PORT) || 3000,
-  jwtSecret: requireJwtSecret(),
-  jwtExpiresIn: process.env.JWT_EXPIRES_IN || "1d",
+  port: process.env.PORT || 3000,
   frontendUrl: process.env.FRONTEND_URL || "http://localhost:5173",
 };
